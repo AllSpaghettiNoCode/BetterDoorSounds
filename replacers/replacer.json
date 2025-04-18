@@ -1,0 +1,99 @@
+{
+	"replacements": [
+		{
+			"matches": [
+			"*:door close01",
+			"*:door close02",
+			"*:door close03"
+			],
+			"sounds": [
+				{
+					"sound": "manor_doorclose.wav"
+				}
+			]
+		},
+		{
+			"matches": [
+			"*:door open01",
+			"*:door open02",
+			"*:door open03"
+			],
+			"sounds": [
+				{
+					"sound": "manor_dooropen.wav"
+				}
+			]
+		},
+		{
+			"matches": [
+			"*:door creak end01",
+			"*:door creak end02",
+			"*:door creak end03"
+			],
+			"sounds": [
+				{
+					"sound": "manor_doorcreak_end01.wav",
+					"weight": 25
+				},
+				{
+					"sound": "manor_doorcreak_end02.wav",
+					"weight": 50
+				},
+				{
+					"sound": "manor_doorcreak_end03.wav",
+					"weight": 25
+				}
+			]
+		},
+		{
+			"matches": [
+				"*:door hit01",
+				"*:door hit02",
+				"*:door hit03",
+				"*:door hit04"
+			],
+			"sounds": [
+				{
+					"sound": "manor_doorhit01.wav",
+					"weight": 25
+				},
+				{
+					"sound": "manor_doorhit02.wav",
+					"weight": 25
+				},
+				{
+					"sound": "manor_doorhit03.wav",
+					"weight": 25
+				},
+				{
+					"sound": "manor_doorhit04.wav",
+					"weight": 25
+				}
+			]
+		},
+		{
+			"matches": [
+				"*:door hinge break01",
+				"*:door hinge break02",
+				"*:door hinge break03"
+			],
+			"sounds": [
+				{
+					"sound": "manor_doorhinge_break.wav"
+				}
+			]
+		},
+		{
+			"matches": [
+				"*:door hit heavy01",
+				"*:door hit heavy02",
+				"*:door hit heavy03"
+			],
+			"sounds": [
+				{
+					"sound": "manor_doorhit_heavy.wav"
+				}
+			]
+		}
+	]
+}
